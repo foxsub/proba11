@@ -1,0 +1,62 @@
+package tag2Woche1Auy;
+public class Drache
+{		
+	String name;
+	String farbe;
+	int anzahlLeben =10;
+	
+	boolean hungrig =true;
+	
+	public Drache(String name, String farbe, int anzahlLeben)
+	{
+		this.name = name;
+		this.farbe = farbe;
+		this.anzahlLeben = anzahlLeben;
+	}
+
+	public void stelle_dich_vor()
+	{
+		System.out.println(name + " STELLT SICH VOR:");
+		System.out.println(name);
+		System.out.println(farbe);
+		System.out.println(anzahlLeben);
+		if(hungrig)
+		{
+			System.out.println("ICH BIN SCHARF WIE EINE PEPPERONI!");
+		}
+		else
+		{
+			System.out.println("GAEHHN... lass mich in ruhe!");
+		}
+	}
+	
+	public void schnappeOpfer()
+	{
+		if(hungrig)
+		{
+			System.out.println("Lecker ein Opfer!!");
+			System.out.println("MJAM MJAM!!");
+			System.out.println("RUELPS!! Mahlzeit");
+			hungrig = false;
+		}
+		else
+		{
+			System.out.println("lass mich in Ruhe! Bin Satt!");
+		}
+	}
+}
+_______________________________________________________________________________________________________
+
+import java.util.Random;
+public class Test
+{
+	public static void main(String[] args)
+	{
+		Drache tabaluga = 
+			new Drache("Tabaluga der Schreckliche", "lila", 22);
+		tabaluga.stelle_dich_vor();
+		tabaluga.schnappeOpfer();
+		System.out.println("------------------------");
+		tabaluga.schnappeOpfer();
+	}
+}
