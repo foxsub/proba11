@@ -16,7 +16,7 @@ public class Drache
 
 	public void stelle_dich_vor()
 	{
-		System.out.println(name + " STELLT SICH VOR:");
+		System.out.println(name + " predstavi se H VOR:");
 		System.out.println(name);
 		System.out.println(farbe);
 		System.out.println(anzahlLeben);
