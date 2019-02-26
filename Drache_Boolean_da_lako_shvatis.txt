@@ -1,4 +1,4 @@
-package tag2Woche1Auy;
+tpackage tag2Woche1Auy;
 public class Drache
 {		
 	String name;
@@ -16,7 +16,7 @@ public class Drache
 
 	public void stelle_dich_vor()
 	{
-		System.out.println(name + " STELLT SICH VOR:");
+		System.out.println(name + " predstavi se:");
 		System.out.println(name);
 		System.out.println(farbe);
 		System.out.println(anzahlLeben);
