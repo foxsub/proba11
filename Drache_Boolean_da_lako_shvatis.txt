@@ -1,4 +1,4 @@
-package tag2Woche1Auy;
+tpackage tag2Woche1Auy;
 public class Drache
 {		
 	String name;
